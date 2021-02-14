@@ -1,0 +1,133 @@
+.dropdown-toggle::after {
+    display:none;
+}
+.rounded-circle-cstm{
+    border-radius: 50px;
+}
+*, a{
+    color: #000;
+}
+.mainbody, .bgcstm{
+    background: #e8e8e6;
+}
+html{
+    background: #e8e8e6;
+}
+.w-20p{
+    width: 30px;
+}
+.text-underline{
+    text-decoration: underline;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+li.quick-start {
+    position: relative;
+}
+
+.quick-start-submenu-box {
+    position: absolute;
+    background: #fff;
+    /* padding: 10px; */
+    z-index: 9;
+    border: 1px solid #a7a7a7;
+    width: 330px;
+    top: 40px;
+    left: -10px;
+}
+.bgcstm2{
+    background: #DDD7D0;
+}
+.w85{
+    width: 85%;
+}
+.w5{
+    width: 5%;
+}
+.w-10{
+    width: 10%;
+}
+#headerAlert{
+    opacity: 1;
+    height: 100%;
+    transition: 0.3s;
+}
+#headerAlert.d-none-anm{
+    opacity: 0;
+    height: 0;
+}
+.serch-form-box {
+    width: 800%;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 9px;
+}
+
+.serch-form-box input {
+    width: 90%;
+}
+
+.serch-form-box span {margin-left: 15px;}
+.position-relative{
+    position: relative;
+}
+
+.visibility-hidden{
+    visibility: hidden;
+}
+.visibility-visible{
+    visibility: visible;
+}
+.line-height-40p{
+    line-height: 40px;
+}
+a.active{
+    border-bottom: 5px solid #FFB500;
+}
+div#mobile-header{
+    display: none;
+}
+@media only screen and (max-width: 1000px) {
+    .mainbody input[type='submit'] {
+        width: 100%;
+        border-radius: 20px;
+    }
+    .desktop-header{
+        display: none;
+    }
+    div#mobile-header{
+        display: block;
+    }
+    .mobile-logo{
+        width: 40px;
+    }
+    div#mobile-header .top-header {
+    position: relative;
+    }
+    .mobile-header-search-form {
+        position: absolute;
+        right: 0;
+        width: 95%;
+        margin: auto;
+        left: 0;
+        top: 82px;
+        height: 0;
+        overflow: hidden;
+        transition: 0.3s;
+        text-align: center;
+    }
+
+    .mobile-header-search-form input {
+        width: 75%;
+        padding: 10px;
+    }
+
+    .mobile-header-search-form button {
+        padding: 10px 14px;
+    }
+    .custom-serach-bar-animation{
+        height: 100%;
+    }
+}
